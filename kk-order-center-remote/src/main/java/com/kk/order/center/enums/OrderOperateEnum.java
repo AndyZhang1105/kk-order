@@ -8,10 +8,14 @@ import lombok.Getter;
  */
 @AllArgsConstructor
 @Getter
-public enum RefundMethodEnum {
+public enum OrderOperateEnum {
 
-    APPROVING(1, "退款退货"),
-    REJECTED(2, "仅退款"),
+
+    CREATE(1, "创建"),
+    PAY(2, "支付"),
+    CANCEL(3, "取消"),
+    MODIFY(4, "修改"),
+    REFUND(5, "退款"),
 
     UNKNOWN(-1, "未知");
 
@@ -21,13 +25,13 @@ public enum RefundMethodEnum {
     /**
      * 从code值获取对应的枚举
      */
-    public static RefundMethodEnum getByCode(int code) {
-        for (RefundMethodEnum aEnum : RefundMethodEnum.values()) {
+    public static OrderTypeEnum getByCode(int code) {
+        for (OrderTypeEnum aEnum : OrderTypeEnum.values()) {
             if (aEnum.getCode() == code) {
                 return aEnum;
             }
         }
-        return RefundMethodEnum.UNKNOWN;
+        return OrderTypeEnum.UNKNOWN;
     }
 
 }

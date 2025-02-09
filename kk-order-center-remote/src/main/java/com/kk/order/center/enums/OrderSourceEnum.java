@@ -11,13 +11,13 @@ import lombok.Getter;
 public enum OrderSourceEnum {
 
     OF(1, "线下收银台"),
-    VS(2, "微商城"),
+    MP(2, "微信小程序"),
     MT(3, "美团闪购"),
     EL(4, "饿百零售"),
     JD(5, "京东到家"),
     DY(6, "抖音小时达"),
 
-    UNKNOWN(9, "未知");
+    UNKNOWN(-1, "未知");
 
     private final int code;
     private final String desc;

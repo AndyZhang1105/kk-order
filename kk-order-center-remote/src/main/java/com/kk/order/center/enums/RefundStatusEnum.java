@@ -10,13 +10,18 @@ import lombok.Getter;
 @Getter
 public enum RefundStatusEnum {
 
-    APPROVING(1, "退款待审核中"),
-    REJECTED(2, "已拒绝"),
-    REFUNDING(3, "退款中"),
-    COMPLETED(4, "退款完成"),
-    FAILED(5, "退款失败"),
+    NONE(0, "未申请退款"),
+    USER_APPLY_PART(1, "用户发起部分退款"),
+    USER_APPLY_FULL(2, "用户发起全部退款"),
+    MERCHANT_APPLY_FULL(3, "商家发起全部退款"),
+    APPROVING(4, "商家审核通过"),
+    REJECTED(5, "商家审核拒绝"),
+    REFUNDING(6, "商家退款处理中"),
+    COMPLETED(7, "商家完成退款"),
+    FAILED(8, "商家退款失败"),
+    CANCELLED(9, "用户取消退款申请"),
 
-    UNKNOWN(9, "未知");
+    UNKNOWN(-1, "未知");
 
     private final int code;
     private final String desc;

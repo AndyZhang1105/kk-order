@@ -16,8 +16,11 @@ public enum OrderTypeEnum {
     PRE_SALE(4, "预售订单"),
     LOGISTICS(5, "物流订单"),
     POINTS_EXCHANGE(6, "积分兑换订单"),
+    COUPON_PACKAGE(7, "券包订单"),
+    RECHARGE(8, "会员储值订单"),
+    VIRTUAL_GOODS(9, "虚拟商品订单"),
 
-    UNKNOWN(9, "未知");
+    UNKNOWN(-1, "未知");
 
     private final int code;
     private final String desc;

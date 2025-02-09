@@ -10,11 +10,11 @@ import lombok.Getter;
 @Getter
 public enum RefundTypeEnum {
 
-    OF(1, "整单退"),
-    VS(2, "部分退"),
-    MT(3, "剩余全部退"),
+    FULL(1, "整单退"),
+    PART(2, "部分退"),
+    REST_FULL(3, "剩余全部退"),
 
-    UNKNOWN(9, "未知");
+    UNKNOWN(-1, "未知");
 
     private final int code;
     private final String desc;
