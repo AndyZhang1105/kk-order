@@ -4,6 +4,7 @@ import com.kk.arch.dubbo.common.conf.RedisHelper;
 import com.kk.arch.dubbo.common.util.AssertUtils;
 import com.kk.order.center.dto.req.OrderCreateReqDto;
 import com.kk.order.center.dto.resp.OrderDto;
+import com.kk.order.center.entity.Order;
 import com.kk.order.center.service.OrderService;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.time.StopWatch;
@@ -24,10 +25,9 @@ import static com.kk.arch.dubbo.common.constant.CommonConstants.TIME_30S;
 @Slf4j
 public class DefaultOrderCreateStrategyImpl extends AbstractOrderCreateStrategyImpl implements OrderCreateStrategy {
 
-
     @Override
-    public void createOrder(Order order) {
-        super.createOrder(order);
+    public OrderDto createOrder(OrderCreateReqDto reqDto) {
+        return super.createOrder(reqDto);
     }
 
 }

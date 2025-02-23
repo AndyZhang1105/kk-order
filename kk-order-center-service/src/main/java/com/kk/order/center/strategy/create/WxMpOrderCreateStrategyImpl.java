@@ -36,8 +36,8 @@ public class WxMpOrderCreateStrategyImpl extends AbstractOrderCreateStrategyImpl
 
     @Override
     @Transactional(rollbackFor = Exception.class)
-    public OrderDto createOrder(OrderCreateReqDto orderCreateReqDto) {
-        super.createOrder();
+    public OrderDto createOrder(OrderCreateReqDto reqDto) {
+        return super.createOrder(reqDto);
     }
 
     @Override

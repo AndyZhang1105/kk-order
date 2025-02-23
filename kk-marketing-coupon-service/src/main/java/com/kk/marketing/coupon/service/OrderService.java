@@ -1,6 +1,6 @@
-package com.kk.order.center.service;
+package com.kk.marketing.coupon.service;
 
-import com.kk.order.center.entity.Order;
+import com.kk.marketing.coupon.entity.Order;
 import com.kk.order.center.service.BaseService;
 
 /**

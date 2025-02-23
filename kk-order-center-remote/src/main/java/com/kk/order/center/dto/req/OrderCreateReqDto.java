@@ -3,6 +3,7 @@ package com.kk.order.center.dto.req;
 import lombok.Data;
 
 import java.io.Serializable;
+import java.util.List;
 
 /**
  * @author Zal
@@ -14,5 +15,5 @@ public class OrderCreateReqDto implements Serializable {
 
     String orderNo;
 
-    List<OrderItem> itemList;
+    List<Object> itemList;
 }

@@ -5,20 +5,21 @@ import lombok.Getter;
 
 /**
  * @author Zal
+ * @descrition 0-其他;1-微信;2-支付宝;3-现金;4-余额支付;5-第三方平台(外卖);6-混合支付;7-银联支付;8-积分支付;
  */
 @AllArgsConstructor
 @Getter
 public enum OrderPayTypeEnum {
 
-    CASH(1, "现金"),
-    WECHAT(2, "微信"),
-    ALI(3, "支付宝"),
-    UNION(4, "银联"),
-    QUICK(5, "云闪付"),
-    BALANCE(6, "会员余额"),
-    POINTS(7, "会员积分抵现"),
-    MIXED(8, "混合"),
-    OTHER(9, "其它"),
+    OTHER(0, "其它"),
+    WECHAT(1, "微信"),
+    ALI(2, "支付宝"),
+    CASH(3, "现金"),
+    BALANCE(4, "会员余额"),
+    THIRD(5, "第三方平台"),
+    MIXED(6, "混合"),
+    UNION(7, "银联/云闪付"),
+    QUICK(8, "积分支付"),
 
     UNKNOWN(-1, "未知");
 
