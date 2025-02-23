@@ -3,7 +3,6 @@ package com.kk.order.center.service.impl;
 import com.kk.order.center.entity.OrderItem;
 import com.kk.order.center.mapper.OrderItemMapper;
 import com.kk.order.center.service.OrderItemService;
-import com.kk.order.center.service.impl.BaseServiceImpl;
 import org.springframework.stereotype.Service;
 
 /**

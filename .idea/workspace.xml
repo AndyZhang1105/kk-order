@@ -5,29 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a8fea57-21f1-4018-94b1-af2fd69a270d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/kk-order-center-remote/src/main/java/com/kk/order/center/enums/OrderPlatformEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kk-order-center-service/src/main/java/com/kk/order/center/entity/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kk-order-center-service/src/main/java/com/kk/order/center/entity/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kk-order-center-service/src/main/java/com/kk/order/center/mapper/OrderMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kk-order-center-service/src/main/java/com/kk/order/center/service/BaseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kk-order-center-service/src/main/java/com/kk/order/center/service/OrderItemService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kk-order-center-service/src/main/java/com/kk/order/center/service/impl/BaseServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kk-order-center-service/src/main/java/com/kk/order/center/service/impl/OrderServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kk-order-center-service/src/main/java/com/kk/order/center/tool/OrderCodeGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kk-order-center-remote/src/main/java/com/kk/order/center/dto/req/OrderCreateReqDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/kk-order-center-remote/src/main/java/com/kk/order/center/dto/req/OrderCreateReqDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kk-order-center-remote/src/main/java/com/kk/order/center/dto/resp/OrderDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/kk-order-center-remote/src/main/java/com/kk/order/center/dto/resp/OrderDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kk-order-center-remote/src/main/java/com/kk/order/center/enums/OrderPayTypeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/kk-order-center-remote/src/main/java/com/kk/order/center/enums/OrderPayTypeEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kk-order-center-service/src/main/java/com/kk/order/center/OrderCenterService.java" beforeDir="false" afterPath="$PROJECT_DIR$/kk-order-center-service/src/main/java/com/kk/order/center/OrderCenterService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kk-order-center-service/src/main/java/com/kk/order/center/remote/impl/WxMpOrderRemoteImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/kk-order-center-service/src/main/java/com/kk/order/center/remote/impl/WxMpOrderRemoteImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kk-order-center-service/src/main/java/com/kk/order/center/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/kk-order-center-service/src/main/java/com/kk/order/center/service/OrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kk-order-center-service/src/main/java/com/kk/order/center/strategy/create/AbstractOrderCreateStrategyImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/kk-order-center-service/src/main/java/com/kk/order/center/strategy/create/AbstractOrderCreateStrategyImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kk-order-center-service/src/main/java/com/kk/order/center/strategy/create/DefaultOrderCreateStrategyImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/kk-order-center-service/src/main/java/com/kk/order/center/strategy/create/DefaultOrderCreateStrategyImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kk-order-center-service/src/main/java/com/kk/order/center/strategy/create/OrderCreateStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/kk-order-center-service/src/main/java/com/kk/order/center/strategy/create/OrderCreateStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kk-order-center-service/src/main/java/com/kk/order/center/strategy/create/OrderCreateStrategyFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/kk-order-center-service/src/main/java/com/kk/order/center/strategy/create/OrderCreateStrategyFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kk-order-center-service/src/main/java/com/kk/order/center/strategy/create/WxMpOrderCreateStrategyImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/kk-order-center-service/src/main/java/com/kk/order/center/strategy/create/WxMpOrderCreateStrategyImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kk-order-center-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/kk-order-center-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kk-order-center-service/src/main/java/com/kk/order/center/mapper/OrderItemMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/kk-order-center-service/src/main/java/com/kk/order/center/mapper/OrderItemMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kk-order-center-service/src/main/java/com/kk/order/center/mapper/OrderMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/kk-order-center-service/src/main/java/com/kk/order/center/mapper/OrderMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kk-order-center-service/src/main/java/com/kk/order/center/mapper/OrderRelationMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/kk-order-center-service/src/main/java/com/kk/order/center/mapper/OrderRelationMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kk-order-center-service/src/main/java/com/kk/order/center/service/impl/OrderItemServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/kk-order-center-service/src/main/java/com/kk/order/center/service/impl/OrderItemServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kk-order-center-service/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/kk-order-center-service/src/main/resources/bootstrap.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,6 +54,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.OrderCodeGenerator.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "900",
+    "RequestMappingsPanelWidth1": "899",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -94,6 +80,9 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\code\kk-order\kk-order-center-service\src\main\resources" />
@@ -107,7 +96,7 @@
       <recent name="com.kk.order.center.enums" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.OrderCodeGenerator">
+  <component name="RunManager" selected="Spring Boot.OrderCenterService">
     <configuration name="OrderCenterService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.kk.order.center.OrderCenterService" />
       <module name="kk-order-center-service" />
@@ -135,12 +124,18 @@
       </method>
     </configuration>
     <configuration name="OrderCenterService" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="ACTIVE_PROFILES" value="dev" />
       <module name="kk-order-center-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.kk.order.center.OrderCenterService" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.OrderCenterService" />
+      <item itemvalue="Application.OrderCodeGenerator" />
+      <item itemvalue="Spring Boot.OrderCenterService" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.OrderCodeGenerator" />
@@ -173,6 +168,7 @@
       <workItem from="1740316168630" duration="1071000" />
       <workItem from="1740317258821" duration="168000" />
       <workItem from="1740317676440" duration="113000" />
+      <workItem from="1740318165013" duration="1400000" />
     </task>
     <servers />
   </component>
