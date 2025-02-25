@@ -4,10 +4,12 @@ import com.kk.arch.dubbo.common.conf.RedisHelper;
 import com.kk.arch.dubbo.common.util.AssertUtils;
 import com.kk.order.center.dto.req.OrderCreateReqDto;
 import com.kk.order.center.dto.resp.OrderDto;
+import com.kk.order.center.enums.OrderPlatformEnum;
 import com.kk.order.center.service.OrderService;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.time.StopWatch;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -20,9 +22,9 @@ import static com.kk.arch.dubbo.common.constant.CommonConstants.TIME_30S;
 /**
  * @author Zal
  */
-@Service
+@Component("wxMpOrderCreateStrategy")
 @Slf4j
-public class WxMpOrderCreateStrategyImpl extends AbstractOrderCreateStrategyImpl implements OrderCreateStrategy {
+public class WxMpOrderCreateStrategyImpl extends AbstractOrderCreateStrategyImpl {
 
     @Autowired
     private RedisHelper redisHelper;
@@ -31,7 +33,13 @@ public class WxMpOrderCreateStrategyImpl extends AbstractOrderCreateStrategyImpl
     private OrderService orderService;
 
     @Override
-    public void preCreate(OrderCreateReqDto orderCreateReqDto) {
+    public OrderPlatformEnum getOrderPlatformEnum() {
+        return OrderPlatformEnum.MP;
+    }
+
+    @Override
+    public void preCreate(OrderCreateReqDto reqDto) {
+        super.preCreate(reqDto);
     }
 
     @Override
@@ -41,7 +49,8 @@ public class WxMpOrderCreateStrategyImpl extends AbstractOrderCreateStrategyImpl
     }
 
     @Override
-    public void postCreate(OrderCreateReqDto orderCreateReqDto) {
+    public void postCreate(OrderCreateReqDto reqDto) {
+        super.postCreate(reqDto);
     }
 
 }

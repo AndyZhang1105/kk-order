@@ -1,19 +1,43 @@
 package com.kk.order.center.strategy.create;
 
-import com.kk.order.center.entity.Order;
+import com.google.common.collect.Maps;
+import com.kk.arch.dubbo.common.conf.ApplicationContextHelper;
 import com.kk.order.center.enums.OrderPlatformEnum;
+import jakarta.annotation.PostConstruct;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+import java.util.List;
+import java.util.Map;
+import java.util.Optional;
 
 /**
  * @author Zal
  */
+@Component("orderCreateStrategyFactory")
 public class OrderCreateStrategyFactory {
 
-    public static OrderCreateStrategy getStrategy(Order order) {
-        if (OrderPlatformEnum.MP.getCode() == 1) {
-            return new WxMpOrderCreateStrategyImpl();
-        } else {
-            return new DefaultOrderCreateStrategyImpl();
+    @Autowired
+    private List<OrderCreateStrategy> strategyList;
+
+    private static Map<OrderPlatformEnum, OrderCreateStrategy> strategyMap = Maps.newHashMap();
+
+    @PostConstruct
+    public void postConstruct() {
+        for (OrderCreateStrategy strategy : strategyList) {
+            OrderPlatformEnum orderPlatformEnum = strategy.getOrderPlatformEnum();
+            if (orderPlatformEnum == null) {
+                continue;
+            }
+            strategyMap.put(orderPlatformEnum, strategy);
         }
+    }
+
+    /**
+     * 获取策略
+     */
+    public static OrderCreateStrategy getStrategy(OrderPlatformEnum orderPlatformEnum) {
+        return Optional.ofNullable(strategyMap.get(orderPlatformEnum)).orElse(strategyMap.get(OrderPlatformEnum.UNKNOWN));
     }
 
 }

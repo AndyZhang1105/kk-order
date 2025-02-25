@@ -9,11 +9,9 @@ import java.util.List;
  * @author Zal
  */
 @Data
-public class OrderCreateReqDto implements Serializable {
+public class OrderItemCreateReqDto implements Serializable {
 
     Long tenantId;
 
     String orderNo;
-
-    List<OrderItemCreateReqDto> itemList;
 }

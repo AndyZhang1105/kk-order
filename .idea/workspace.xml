@@ -5,12 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a8fea57-21f1-4018-94b1-af2fd69a270d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/kk-order-center-remote/src/main/java/com/kk/order/center/dto/req/OrderItemCreateReqDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kk-order-center-service/src/main/java/com/kk/order/center/conf/MqHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kk-order-center-service/src/main/java/com/kk/order/center/conf/MyBatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kk-order-center-service/src/main/java/com/kk/order/center/conf/MyBatisPlusTenantHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kk-order-center-remote/src/main/java/com/kk/order/center/dto/req/OrderCreateReqDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/kk-order-center-remote/src/main/java/com/kk/order/center/dto/req/OrderCreateReqDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kk-order-center-service/src/main/java/com/kk/order/center/mapper/OrderItemMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/kk-order-center-service/src/main/java/com/kk/order/center/mapper/OrderItemMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kk-order-center-service/src/main/java/com/kk/order/center/mapper/OrderMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/kk-order-center-service/src/main/java/com/kk/order/center/mapper/OrderMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kk-order-center-service/src/main/java/com/kk/order/center/mapper/OrderRelationMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/kk-order-center-service/src/main/java/com/kk/order/center/mapper/OrderRelationMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kk-order-center-service/src/main/java/com/kk/order/center/service/impl/OrderItemServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/kk-order-center-service/src/main/java/com/kk/order/center/service/impl/OrderItemServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kk-order-center-service/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/kk-order-center-service/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kk-order-center-service/src/main/java/com/kk/order/center/remote/impl/WxMpOrderRemoteImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/kk-order-center-service/src/main/java/com/kk/order/center/remote/impl/WxMpOrderRemoteImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kk-order-center-service/src/main/java/com/kk/order/center/strategy/create/AbstractOrderCreateStrategyImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/kk-order-center-service/src/main/java/com/kk/order/center/strategy/create/AbstractOrderCreateStrategyImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kk-order-center-service/src/main/java/com/kk/order/center/strategy/create/DefaultOrderCreateStrategyImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/kk-order-center-service/src/main/java/com/kk/order/center/strategy/create/DefaultOrderCreateStrategyImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kk-order-center-service/src/main/java/com/kk/order/center/strategy/create/OrderCreateStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/kk-order-center-service/src/main/java/com/kk/order/center/strategy/create/OrderCreateStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kk-order-center-service/src/main/java/com/kk/order/center/strategy/create/OrderCreateStrategyFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/kk-order-center-service/src/main/java/com/kk/order/center/strategy/create/OrderCreateStrategyFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kk-order-center-service/src/main/java/com/kk/order/center/strategy/create/WxMpOrderCreateStrategyImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/kk-order-center-service/src/main/java/com/kk/order/center/strategy/create/WxMpOrderCreateStrategyImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kk-order-center-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/kk-order-center-service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,49 +62,50 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.OrderCodeGenerator.executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "900",
-    "RequestMappingsPanelWidth1": "899",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.OrderCenterService.executor": "Debug",
-    "git-widget-placeholder": "master",
-    "jdk.selected.JAVA_MODULE": "17",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/code/kk-marketing",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "D:/code/kk-order/src/main/java/com/kk/Main.java",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.37931034",
-    "settings.editor.selected.configurable": "Code Search",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.OrderCodeGenerator.executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.OrderCenterService.executor&quot;: &quot;Debug&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/code/kk-order/kk-order-center-service/src/main/java/com/kk/order/center/conf&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/code/kk-order/src/main/java/com/kk/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.37931034&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Code Search&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code\kk-order\kk-order-center-service\src\main\java\com\kk\order\center\conf" />
       <recent name="D:\code\kk-order\kk-order-center-service\src\main\resources" />
       <recent name="D:\code\kk-order" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.kk.order.center.dto.req" />
       <recent name="com.kk.order.center.service.impl" />
       <recent name="com.kk.order.center.service" />
       <recent name="com.kk.order.center.entity" />
       <recent name="com.kk.order.center.tool" />
-      <recent name="com.kk.order.center.enums" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.OrderCenterService">
@@ -168,7 +180,9 @@
       <workItem from="1740316168630" duration="1071000" />
       <workItem from="1740317258821" duration="168000" />
       <workItem from="1740317676440" duration="113000" />
-      <workItem from="1740318165013" duration="1400000" />
+      <workItem from="1740318165013" duration="5894000" />
+      <workItem from="1740493349982" duration="2051000" />
+      <workItem from="1740495418199" duration="197000" />
     </task>
     <servers />
   </component>
@@ -182,6 +196,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/kk/Main.java</url>
           <line>15</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/kk-order-center-service/src/main/java/com/kk/order/center/strategy/create/OrderCreateStrategyFactory.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
