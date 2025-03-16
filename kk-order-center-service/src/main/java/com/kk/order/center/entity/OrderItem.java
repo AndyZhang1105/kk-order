@@ -1,5 +1,7 @@
 package com.kk.order.center.entity;
 
+import com.baomidou.mybatisplus.annotation.IdType;
+import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
 import com.baomidou.mybatisplus.annotation.TableName;
 import com.kk.order.center.entity.BaseEntity;
@@ -29,6 +31,7 @@ import lombok.NoArgsConstructor;
 public class OrderItem extends BaseEntity {
 
     @Schema(description = "自增主键id")
+    @TableId(value = "id", type = IdType.AUTO)
     private Long id;
 
     @Schema(description = "门店id")

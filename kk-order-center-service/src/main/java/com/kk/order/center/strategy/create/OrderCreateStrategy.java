@@ -11,14 +11,12 @@ public interface OrderCreateStrategy {
 
     /**
      * 创建订单
-     * @param reqDto
      * @return OrderDto
      */
     OrderDto createOrder(OrderCreateReqDto reqDto);
 
     /**
      * 获取订单平台枚举，每一个策略对应一个订单平台
-     * @return
      */
     OrderPlatformEnum getOrderPlatformEnum();
 

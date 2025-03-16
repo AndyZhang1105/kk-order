@@ -55,15 +55,17 @@ public abstract class AbstractOrderCreateStrategyImpl implements OrderCreateStra
 
         // 2. 保存订单主体
         Order order = JsonUtils.toObject(reqDto, Order.class);
+        order.setOrderStatus(OrderStatusEnum.UNPAID.getCode());
+        order.setOrderBusinessStatus(OrderStatusEnum.UNPAID_WAITING.getCode());
         final boolean orderSaveResult = orderService.save(order);
         AssertUtils.isTrue(orderSaveResult, "主订单入库失败");
 
         // 3. 保存订单明细信息
         final List<OrderItem> itemList = JsonUtils.toList(reqDto.getItemList(), OrderItem.class);
-        Optional.ofNullable(reqDto.getItemList()).orElse(Collections.emptyList()).forEach(o -> {
+        Optional.ofNullable(itemList).orElse(Collections.emptyList()).forEach(o -> {
             o.setOrderNo(order.getOrderNo());
         });
-        final boolean orderItemSaveResult =orderItemService.saveBatch(itemList);
+        final boolean orderItemSaveResult = orderItemService.saveBatch(itemList);
         AssertUtils.isTrue(orderItemSaveResult, "订单明细入库失败");
 
         // 4. MQ的15分钟延时队列判断付费订单是否取消，非付费订单则直接完成

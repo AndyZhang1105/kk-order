@@ -3,18 +3,17 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.kk.arch</groupId>
+        <artifactId>kk-arch-dubbo-web-parent</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+        <relativePath/>
+    </parent>
 
-    <groupId>com.kk</groupId>
-    <artifactId>kk-order</artifactId>
-    <version>1.0-SNAPSHOT</version>
-    <packaging>pom</packaging>
-
-    <modules>
-        <module>kk-order-common</module>
-        <module>kk-order-center-remote</module>
-        <module>kk-order-center-service</module>
-        <module>kk-order-web</module>
-    </modules>
+    <groupId>com.kk.order</groupId>
+    <artifactId>kk-order-web</artifactId>
+    <version>${order-version}</version>
+    <packaging>jar</packaging>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
@@ -22,6 +21,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <order-version>1.0.0</order-version>
     </properties>
+
 
     <dependencies>
 

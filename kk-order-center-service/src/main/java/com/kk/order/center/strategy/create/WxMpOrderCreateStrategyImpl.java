@@ -6,6 +6,7 @@ import com.kk.order.center.dto.req.OrderCreateReqDto;
 import com.kk.order.center.dto.resp.OrderDto;
 import com.kk.order.center.enums.OrderPlatformEnum;
 import com.kk.order.center.service.OrderService;
+import jakarta.annotation.Resource;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.time.StopWatch;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -26,10 +27,10 @@ import static com.kk.arch.dubbo.common.constant.CommonConstants.TIME_30S;
 @Slf4j
 public class WxMpOrderCreateStrategyImpl extends AbstractOrderCreateStrategyImpl {
 
-    @Autowired
+    @Resource
     private RedisHelper redisHelper;
 
-    @Autowired
+    @Resource
     private OrderService orderService;
 
     @Override

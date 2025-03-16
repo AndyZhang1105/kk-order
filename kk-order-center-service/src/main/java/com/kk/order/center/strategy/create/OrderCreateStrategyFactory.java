@@ -1,10 +1,9 @@
 package com.kk.order.center.strategy.create;
 
 import com.google.common.collect.Maps;
-import com.kk.arch.dubbo.common.conf.ApplicationContextHelper;
 import com.kk.order.center.enums.OrderPlatformEnum;
 import jakarta.annotation.PostConstruct;
-import org.springframework.beans.factory.annotation.Autowired;
+import jakarta.annotation.Resource;
 import org.springframework.stereotype.Component;
 
 import java.util.List;
@@ -17,10 +16,10 @@ import java.util.Optional;
 @Component("orderCreateStrategyFactory")
 public class OrderCreateStrategyFactory {
 
-    @Autowired
+    @Resource
     private List<OrderCreateStrategy> strategyList;
 
-    private static Map<OrderPlatformEnum, OrderCreateStrategy> strategyMap = Maps.newHashMap();
+    private static final Map<OrderPlatformEnum, OrderCreateStrategy> strategyMap = Maps.newHashMap();
 
     @PostConstruct
     public void postConstruct() {

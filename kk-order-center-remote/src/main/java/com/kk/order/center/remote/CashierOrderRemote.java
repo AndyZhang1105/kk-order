@@ -9,6 +9,11 @@ import com.kk.order.center.dto.resp.OrderDto;
  */
 public interface CashierOrderRemote {
 
-    OrderDto createOrder(OrderCreateReqDto orderCreateReqDto);
+    /**
+     * 创建订单
+     * @param reqDto
+     * @return
+     */
+    OrderDto createOrder(OrderCreateReqDto reqDto);
 
 }
