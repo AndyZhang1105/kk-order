@@ -1,8 +1,8 @@
 package com.kk.order.web.controller;
 
-import com.kk.arch.dubbo.common.util.JsonUtils;
-import com.kk.arch.dubbo.common.util.ResponseUtils;
-import com.kk.arch.dubbo.common.util.SnowflakeIdUtils;
+import com.kk.arch.common.util.JsonUtils;
+import com.kk.arch.common.util.ResponseUtils;
+import com.kk.arch.common.util.SnowflakeIdUtils;
 import com.kk.order.center.dto.req.OrderCreateReqDto;
 import com.kk.order.center.dto.resp.OrderDto;
 import com.kk.order.center.remote.CashierOrderRemote;
@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import com.kk.arch.dubbo.remote.vo.ResponseData;
+import com.kk.arch.remote.vo.ResponseData;
 
 /**
  * @author Zal

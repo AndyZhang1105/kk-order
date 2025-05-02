@@ -92,4 +92,7 @@
     <logger name="sys-user" level="info">
         <appender-ref ref="sys-user"/>
     </logger>
+
+    <logger name="org.apache.dubbo" level="DEBUG"/>
+
 </configuration> 

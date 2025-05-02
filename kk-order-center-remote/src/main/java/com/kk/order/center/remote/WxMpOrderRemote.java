@@ -16,7 +16,6 @@ public interface WxMpOrderRemote {
 
     OrderDto payOrder(OrderCreateReqDto orderCreateReqDto);
 
-
     OrderDto cancelOrder(OrderCreateReqDto orderCreateReqDto);
 
     OrderDto acceptOrder(OrderCreateReqDto orderCreateReqDto);

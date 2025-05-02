@@ -1,7 +1,6 @@
 package com.kk.order.web.filter;
 
-import com.kk.arch.dubbo.common.conf.UserContextHolder;
-import com.kk.gateway.auth.dto.UserDto;
+import com.kk.arch.remote.dto.UserDto;
 import com.kk.gateway.auth.remote.UserTokenService;
 import io.vavr.control.Try;
 import jakarta.servlet.FilterChain;
@@ -13,11 +12,11 @@ import org.springframework.context.annotation.Lazy;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Component;
 import org.springframework.web.filter.OncePerRequestFilter;
+import com.kk.arch.common.conf.UserContextHolder;
 
 import java.io.IOException;
 
-import static com.kk.arch.dubbo.common.constant.CommonConstants.HEADER_TOKEN;
-
+import static com.kk.gateway.auth.contants.AuthConstants.HEADER_TOKEN;
 
 /**
  * @author Zal

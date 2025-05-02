@@ -5,40 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a8fea57-21f1-4018-94b1-af2fd69a270d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/kk-order-center-service/src/main/java/com/kk/order/center/filter/ServiceTenantFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kk-order-center-service/src/main/java/com/kk/order/center/remote/impl/CashierOrderRemoteImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kk-order-web/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kk-order-web/src/main/java/com/kk/order/web/OrderWebApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kk-order-web/src/main/java/com/kk/order/web/conf/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kk-order-web/src/main/java/com/kk/order/web/controller/BaseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kk-order-web/src/main/java/com/kk/order/web/controller/CashierOrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kk-order-web/src/main/java/com/kk/order/web/controller/req/OrderCreateReqVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kk-order-web/src/main/java/com/kk/order/web/controller/resp/OrderRespVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kk-order-web/src/main/java/com/kk/order/web/filter/WebTenantFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kk-order-web/src/main/java/com/kk/order/web/filter/WebTokenFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kk-order-web/src/main/resources/META-INF/dubbo/org.apache.dubbo.rpc.Filter" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kk-order-web/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kk-order-web/src/main/resources/bootstrap.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kk-order-web/src/main/resources/logback.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kk-marketing-coupon-service/src/main/java/com/kk/marketing/coupon/entity/Order.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kk-marketing-coupon-service/src/main/java/com/kk/marketing/coupon/mapper/OrderMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kk-marketing-coupon-service/src/main/java/com/kk/marketing/coupon/mapper/OrderMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kk-marketing-coupon-service/src/main/java/com/kk/marketing/coupon/service/OrderService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kk-marketing-coupon-service/src/main/java/com/kk/marketing/coupon/service/impl/OrderServiceImpl.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/kk-order-center-remote/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kk-order-center-remote/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kk-order-center-remote/src/main/java/com/kk/order/center/dto/req/OrderCreateReqDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/kk-order-center-remote/src/main/java/com/kk/order/center/dto/req/OrderCreateReqDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kk-order-center-remote/src/main/java/com/kk/order/center/dto/req/OrderItemCreateReqDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/kk-order-center-remote/src/main/java/com/kk/order/center/dto/req/OrderItemCreateReqDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kk-order-center-remote/src/main/java/com/kk/order/center/remote/CashierOrderRemote.java" beforeDir="false" afterPath="$PROJECT_DIR$/kk-order-center-remote/src/main/java/com/kk/order/center/remote/CashierOrderRemote.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kk-order-center-service/src/main/java/com/kk/order/center/conf/MyBatisPlusConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/kk-order-center-service/src/main/java/com/kk/order/center/conf/MyBatisPlusConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kk-order-center-service/src/main/java/com/kk/order/center/entity/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/kk-order-center-service/src/main/java/com/kk/order/center/entity/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kk-order-center-service/src/main/java/com/kk/order/center/entity/OrderItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/kk-order-center-service/src/main/java/com/kk/order/center/entity/OrderItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kk-order-center-remote/src/main/java/com/kk/order/center/remote/WxMpOrderRemote.java" beforeDir="false" afterPath="$PROJECT_DIR$/kk-order-center-remote/src/main/java/com/kk/order/center/remote/WxMpOrderRemote.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kk-order-center-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kk-order-center-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kk-order-center-service/src/main/java/com/kk/order/center/conf/MqHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/kk-order-center-service/src/main/java/com/kk/order/center/conf/MqHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kk-order-center-service/src/main/java/com/kk/order/center/conf/MyBatisPlusTenantHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/kk-order-center-service/src/main/java/com/kk/order/center/conf/MyBatisPlusTenantHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kk-order-center-service/src/main/java/com/kk/order/center/filter/ServiceTenantFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/kk-order-center-service/src/main/java/com/kk/order/center/filter/ServiceTenantFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kk-order-center-service/src/main/java/com/kk/order/center/service/BaseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/kk-order-center-service/src/main/java/com/kk/order/center/service/BaseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kk-order-center-service/src/main/java/com/kk/order/center/service/impl/BaseServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/kk-order-center-service/src/main/java/com/kk/order/center/service/impl/BaseServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kk-order-center-service/src/main/java/com/kk/order/center/strategy/create/AbstractOrderCreateStrategyImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/kk-order-center-service/src/main/java/com/kk/order/center/strategy/create/AbstractOrderCreateStrategyImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kk-order-center-service/src/main/java/com/kk/order/center/strategy/create/OrderCreateStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/kk-order-center-service/src/main/java/com/kk/order/center/strategy/create/OrderCreateStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kk-order-center-service/src/main/java/com/kk/order/center/strategy/create/OrderCreateStrategyFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/kk-order-center-service/src/main/java/com/kk/order/center/strategy/create/OrderCreateStrategyFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kk-order-center-service/src/main/java/com/kk/order/center/strategy/create/DefaultOrderCreateStrategyImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/kk-order-center-service/src/main/java/com/kk/order/center/strategy/create/DefaultOrderCreateStrategyImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kk-order-center-service/src/main/java/com/kk/order/center/strategy/create/WxMpOrderCreateStrategyImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/kk-order-center-service/src/main/java/com/kk/order/center/strategy/create/WxMpOrderCreateStrategyImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kk-order-center-service/src/main/resources/dubbo/org.apache.dubbo.rpc.Filter" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kk-order-center-service/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/kk-order-center-service/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kk-order-center-service/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kk-order-center-service/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kk-order-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kk-order-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kk-order-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kk-order-web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kk-order-web/src/main/java/com/kk/order/web/OrderWebApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/kk-order-web/src/main/java/com/kk/order/web/OrderWebApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kk-order-web/src/main/java/com/kk/order/web/conf/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/kk-order-web/src/main/java/com/kk/order/web/conf/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kk-order-web/src/main/java/com/kk/order/web/controller/CashierOrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/kk-order-web/src/main/java/com/kk/order/web/controller/CashierOrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kk-order-web/src/main/java/com/kk/order/web/filter/WebTenantFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/kk-order-web/src/main/java/com/kk/order/web/filter/WebTenantFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kk-order-web/src/main/java/com/kk/order/web/filter/WebTokenFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/kk-order-web/src/main/java/com/kk/order/web/filter/WebTokenFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kk-order-web/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/kk-order-web/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kk-order-web/src/main/resources/bootstrap.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +58,11 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
+        <option name="customMavenHome" value="C:\installed\apache-maven-3.9.6" />
+        <option name="localRepository" value="C:\repo" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
         <option name="useMavenConfig" value="false" />
+        <option name="userSettingsFile" value="C:\installed\apache-maven-3.9.6\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -84,37 +78,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.OrderCodeGenerator.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.generated-requests | #1.executor&quot;: &quot;Run&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Spring Boot.OrderCenterService.executor&quot;: &quot;Debug&quot;,
-    &quot;Spring Boot.OrderWebApplication.executor&quot;: &quot;Debug&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/code/kk-order/kk-order-web/src/main/resources&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;D:/code/kk-order/src/main/java/com/kk/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.37931034&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;Code Search&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.OrderCodeGenerator.executor": "Run",
+    "HTTP Request.generated-requests | #1.executor": "Run",
+    "Maven.kk-order [compile].executor": "Run",
+    "Maven.kk-order [install].executor": "Run",
+    "Maven.kk-order-center-remote [install].executor": "Run",
+    "Maven.kk-order-center-service [install].executor": "Run",
+    "Maven.kk-order-common [install].executor": "Run",
+    "Maven.kk-order-web [clean].executor": "Run",
+    "Maven.kk-order-web [compile].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.OrderCenterService.executor": "Debug",
+    "Spring Boot.OrderWebApplication.executor": "Debug",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "17",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/code/kk-order/kk-order-web/src/main/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "D:/code/kk-order/src/main/java/com/kk/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.37931034",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -164,7 +165,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="generated-requests | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" executionIdentifier="#1" runType="Run single request">
+    <configuration name="generated-requests | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" executionIdentifier="#1">
       <method v="2" />
     </configuration>
     <configuration name="OrderCenterService" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
@@ -176,6 +177,7 @@
       </method>
     </configuration>
     <configuration name="OrderWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="ACTIVE_PROFILES" value="dev" />
       <module name="kk-order-web" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.kk.order.web.OrderWebApplication" />
       <method v="2">
@@ -183,19 +185,12 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.OrderCenterService" />
-      <item itemvalue="Application.OrderCodeGenerator" />
-      <item itemvalue="HTTP Request.generated-requests | #1" />
-      <item itemvalue="Spring Boot.OrderWebApplication" />
+      <item itemvalue="HTTP 请求.generated-requests | #1" />
       <item itemvalue="Spring Boot.OrderCenterService" />
+      <item itemvalue="Spring Boot.OrderWebApplication" />
+      <item itemvalue="应用程序.OrderCenterService" />
+      <item itemvalue="应用程序.OrderCodeGenerator" />
     </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="HTTP Request.generated-requests | #1" />
-        <item itemvalue="Application.OrderCodeGenerator" />
-        <item itemvalue="Application.OrderCenterService" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -227,7 +222,25 @@
       <workItem from="1740495418199" duration="713000" />
       <workItem from="1741441104870" duration="145000" />
       <workItem from="1741441255746" duration="5549000" />
-      <workItem from="1742108048807" duration="8213000" />
+      <workItem from="1742108048807" duration="16873000" />
+      <workItem from="1742129164014" duration="11000" />
+      <workItem from="1742131389174" duration="2775000" />
+      <workItem from="1742134721328" duration="320000" />
+      <workItem from="1742135057472" duration="1000" />
+      <workItem from="1742135179922" duration="2677000" />
+      <workItem from="1742138140658" duration="2020000" />
+      <workItem from="1742140617157" duration="275000" />
+      <workItem from="1742140908787" duration="526000" />
+      <workItem from="1742707278427" duration="2074000" />
+      <workItem from="1742711186460" duration="4890000" />
+      <workItem from="1742735541854" duration="3189000" />
+      <workItem from="1742743442959" duration="1372000" />
+      <workItem from="1742748679326" duration="595000" />
+      <workItem from="1742826563697" duration="596000" />
+      <workItem from="1742912877786" duration="599000" />
+      <workItem from="1743944059973" duration="597000" />
+      <workItem from="1746191785398" duration="446000" />
+      <workItem from="1746194043400" duration="5501000" />
     </task>
     <servers />
   </component>

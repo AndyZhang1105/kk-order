@@ -1,7 +1,7 @@
 package com.kk.order.center.strategy.create;
 
-import com.kk.arch.dubbo.common.conf.RedisHelper;
-import com.kk.arch.dubbo.common.util.AssertUtils;
+import com.kk.arch.common.conf.RedisHelper;
+import com.kk.arch.common.util.AssertUtils;
 import com.kk.order.center.dto.req.OrderCreateReqDto;
 import com.kk.order.center.dto.resp.OrderDto;
 import com.kk.order.center.enums.OrderPlatformEnum;
@@ -18,7 +18,7 @@ import java.util.Collections;
 import java.util.Optional;
 import java.util.UUID;
 
-import static com.kk.arch.dubbo.common.constant.CommonConstants.TIME_30S;
+import static com.kk.arch.common.constant.CommonConstants.TIME_30S;
 
 /**
  * @author Zal

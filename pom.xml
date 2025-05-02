@@ -4,9 +4,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.kk</groupId>
+    <groupId>com.kk.order</groupId>
     <artifactId>kk-order</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>${revision}</version>
     <packaging>pom</packaging>
 
     <modules>
@@ -20,36 +20,24 @@
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <order-version>1.0.0</order-version>
+        <revision>1.0.1-SNAPSHOT</revision>
+        <arch.version>1.0.0-SNAPSHOT</arch.version>
     </properties>
 
-    <dependencies>
+    <dependencyManagement>
 
-        <dependency>
-            <groupId>com.kk.order</groupId>
-            <artifactId>kk-order-center-remote</artifactId>
-            <version>${order-version}</version>
-        </dependency>
+        <dependencies>
+            <!-- 导入BOM -->
+            <dependency>
+                <groupId>com.kk.arch</groupId>
+                <artifactId>kk-arch-bom-dependencies</artifactId>
+                <version>1.0.0-SNAPSHOT</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
 
-        <dependency>
-            <groupId>com.kk.arch</groupId>
-            <artifactId>kk-arch-dubbo-web-dependency</artifactId>
-            <version>1.0.0-SNAPSHOT</version>
-        </dependency>
-
-        <dependency>
-            <groupId>com.kk.gateway</groupId>
-            <artifactId>kk-gateway-auth-remote</artifactId>
-            <version>1.0.0</version>
-        </dependency>
-
-        <dependency>
-            <groupId>io.vavr</groupId>
-            <artifactId>vavr</artifactId>
-            <version>0.10.5</version>
-        </dependency>
-
-    </dependencies>
+    </dependencyManagement>
 
     <build>
         <plugins>

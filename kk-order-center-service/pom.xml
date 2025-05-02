@@ -4,22 +4,20 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>com.kk.arch</groupId>
-        <artifactId>kk-arch-dubbo-service-parent</artifactId>
-        <version>1.0.0-SNAPSHOT</version>
-        <relativePath/>
+        <groupId>com.kk.order</groupId>
+        <artifactId>kk-order</artifactId>
+        <version>${revision}</version>
+        <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <groupId>com.kk.order</groupId>
     <artifactId>kk-order-center-service</artifactId>
     <packaging>jar</packaging>
-    <version>${order-version}</version>
+    <version>${revision}</version>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <order-version>1.0.0</order-version>
         <skipTests>true</skipTests>
         <argLine>-Dfile.encoding=UTF-8</argLine>
     </properties>
@@ -28,20 +26,36 @@
 
         <dependency>
             <groupId>com.kk.arch</groupId>
-            <artifactId>kk-arch-dubbo-service-dependency</artifactId>
-            <version>1.0.0-SNAPSHOT</version>
+            <artifactId>kk-arch-dubbo-service-dependencies</artifactId>
+            <version>${arch.version}</version>
         </dependency>
 
         <dependency>
             <groupId>com.kk.order</groupId>
             <artifactId>kk-order-center-remote</artifactId>
-            <version>${order-version}</version>
+            <version>${revision}</version>
         </dependency>
 
         <!-- add stream for rocketmq -->
         <dependency>
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-starter-stream-rocketmq</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.kk.gateway</groupId>
+            <artifactId>kk-gateway-auth-remote</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
+            <version>2023.0.1.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.dubbo</groupId>
+            <artifactId>dubbo-nacos-spring-boot-starter</artifactId>
         </dependency>
 
     </dependencies>

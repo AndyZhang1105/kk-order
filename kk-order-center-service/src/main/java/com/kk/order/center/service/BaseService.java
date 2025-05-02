@@ -1,8 +1,8 @@
 package com.kk.order.center.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.kk.arch.dubbo.remote.vo.PageReqVo;
-import com.kk.arch.dubbo.remote.vo.PageRespVo;
+import com.kk.arch.remote.vo.PageReqVo;
+import com.kk.arch.remote.vo.PageRespVo;
 
 import java.util.List;
 import java.util.Map;
