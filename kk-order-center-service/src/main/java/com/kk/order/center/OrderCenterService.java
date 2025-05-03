@@ -16,7 +16,7 @@ import org.springframework.context.annotation.EnableAspectJAutoProxy;
 @EnableDubboConfig
 @EnableAspectJAutoProxy
 @Slf4j
-@ComponentScan(basePackages = {"com.kk.arch.dubbo.common.conf", "com.kk.order.center.*"})
+@ComponentScan(basePackages = {"com.kk.arch.common.conf", "com.kk.order.center.*"})
 public class OrderCenterService {
 
     public static void main(String[] args) {
